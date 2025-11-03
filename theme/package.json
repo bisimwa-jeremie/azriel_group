@@ -1,0 +1,14 @@
+{
+  "name": "azrierl-theme",
+  "version": "1.0.0",
+  "private": true,
+  "devDependencies": {
+    "tailwindcss": "^3.4.1",
+    "postcss": "^8.4.31",
+    "autoprefixer": "^10.4.17"
+  },
+  "scripts": {
+    "build": "tailwindcss -i ./static/css/input.css -o ./static/css/dist/styles.css --minify",
+    "start": "tailwindcss -i ./static/css/input.css -o ./static/css/dist/styles.css --watch"
+  }
+}
